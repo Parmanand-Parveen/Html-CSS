@@ -1,0 +1,27 @@
+
+
+
+
+#family{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: large;
+}
+
+#weight{
+    font-size: large;
+    font-weight:bolder;
+}
+#style{
+    font-size: large;
+font-style: italic}
+
+#emphasis{
+    font-size: large;
+    text-emphasis: dot;
+    text-emphasis-position: under;
+}
+
+#external{
+    font-family: 'Rubik Bubbles', cursive;
+}
+

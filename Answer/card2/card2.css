@@ -1,0 +1,54 @@
+#main{
+    border: 1px solid  rgb(237 237 237);
+    width:450px ;
+    height: 425pxpx;
+    box-shadow: 3px 3px 3px grey;
+background-color: white;
+border-radius: 0.5rem;
+opacity: 2;
+cursor: pointer;}  
+
+#img img{
+    height: 250px;
+    width: 400px;
+    margin: 25px 25px 0px 25px;
+    border-radius: 0.25rem;
+    }
+
+    #name{
+        font-size: 25px;
+        font-family: "Rubik", sans-serif;
+        margin-left: 25px;
+    }
+
+    #line{
+        width: 75%;
+        height: 2px;
+        background-color: rgb(237 237 237);
+        opacity: 1;
+        margin-left: 25px;
+    }
+
+    #price{display:inline-flex; 
+        font-family: "Rubik", sans-serif;
+        font-size: 20px;
+        margin: 15px 15px 15px 25px;
+        color:  rgb(102 116 204);
+ }
+
+ #old{display: inline-flex;
+     font-family: "Rubik", sans-serif;
+    margin: 15px 15px 15px 0px;
+    font-size: 20px;
+ text-decoration: line-through;
+color: rgb(119 124 133);}
+
+
+#off{ padding: 4px 4px 4px 4px;
+    border-radius: 0.25rem;
+    display: inline-flex;
+    font-size: 20px;
+    justify-content : center;
+    font-family : "Rubik", sans-serif;
+    background-color: rgb(29 209 161);
+    color: white;}

@@ -1,0 +1,36 @@
+#main div{height: 100px;
+    width: 50%;
+    
+border: 1px solid black;
+margin: 50px 0px 50px 0px;}
+    #main{
+        height: 2000px;
+        width: 100%;
+        border: 1px solid black;
+        padding: 0px 50px 0px 50px;
+    }
+
+ #sticky{position: sticky;
+    top: 0px;
+    background-color: aqua;
+    }
+
+    #absolute{position: absolute;
+    top: 450px;
+    right: 0px;
+    background-color: blue;
+
+    }
+
+    #relative{
+        position: relative;
+        top:500px;
+        left: 200px;
+        background-color: black;
+        color: white;
+    }
+
+    #fixed{
+        position: fixed;
+        background-color: green;
+    }

@@ -1,0 +1,15 @@
+#text{height: 150px;
+    width: 75%;
+    font-size: 125px;
+    border: 1px  solid black;
+    margin: 50px 50px 50px 50px;
+    text-shadow: 3px 3px 1px red;
+}
+
+#box{
+    width: 75%;
+    height: 150px;
+    margin: 50px 50px 50px 50px;
+    border: 1px  solid black;
+    box-shadow: 3px 3px 1px red,-3px -3px 1px red;
+}

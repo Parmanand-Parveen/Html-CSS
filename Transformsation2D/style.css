@@ -1,0 +1,24 @@
+div{
+    height: 100px;
+    width: 100px;
+  
+    border: 1px solid black;
+    background-color: cornflowerblue;
+    margin: 200px;
+}
+
+#box1{
+    transform: translate(0px,0px);
+}
+
+#box2{
+    transform: scale(2,2);
+}
+
+#box3{
+    transform: skew(20deg,1deg);
+}
+
+#box4{
+    transform: rotate(45deg);
+}

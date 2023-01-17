@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 10px;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  height: 100%;
+  transform-style: preserve-3d;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+.background,
+.foreground {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.background {
+  transform: translateZ(-40px) scale(5);
+}
+.foreground {
+  transform: translateZ(-20px);
+  height: 150vh;
+  width: 90vw;
+  align-self: flex-end;
+  margin-left: 200vw;
+}
+
+.profile {
+  color:whitesmoke;
+  font-size: 6vw;
+  margin-top: 45vh;
+  margin-left: 65vw;
+}
+
+h1{
+  font-size: 5vw;
+text-align: center;
+background-color: black;
+color: whitesmoke;}
+
+.text{
+  background-color: black;
+  color: white;
+  font-size: 2vw;
+  text-align:justify;
+ 
+}
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+
+.bg1{
+  background-image: url(https://www.resumego.net/wp-content/uploads/soft-hard-skills.png);
+}
+
+.bg2{
+  background-image: url(https://www.shutterstock.com/image-vector/hobbies-entertainment-concept-large-inscription-260nw-2136659695.jpg);
+}
+
+.bg3{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJS-6GjOoSMdkPM2da9Vei5nUBf5bI1Iw8aA&usqp=CAU);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.box{
+  height: 500px;
+  background-attachment: fixed;
+  background-size: cover;
+}
